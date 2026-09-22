@@ -1,0 +1,21 @@
+version: 1
+project:
+  title: 量潮软件工程教程
+  description: 软件工程领域的工作教程。
+  exports:
+    - format: md
+      articles:
+        - file: index.md
+  toc:
+    - file: index.md
+    - file: stages/index.md
+      children:
+        - file: stages/review/index.md
+        - file: stages/reflect/index.md
+          children:
+            - file: stages/reflect/dependency-graph.md
+        - file: stages/refactor/index.md
+site:
+  template: book-theme
+  options:
+    logo_text: 量潮软件工程教程
