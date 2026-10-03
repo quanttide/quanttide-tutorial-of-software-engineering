@@ -8,7 +8,9 @@ project:
         - file: index.md
   toc:
     - file: index.md
-    - file: intro/intent.md
+    - file: intro/index.md
+      children:
+        - file: intro/intent.md
     - file: stages/index.md
       children:
         - file: stages/review/index.md
